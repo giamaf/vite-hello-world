@@ -1,12 +1,18 @@
 <script>
+import AppTitle from './components/AppTitle.vue';
 export default {
     // Logica Javascript
-    name: 'VueApp'
+    name: 'VueApp',
+
+    components: {
+        AppTitle
+    }
 };
 </script>
 
 <template>
     <!-- Template -->
+    <AppTitle />
 </template>
 
 <style>

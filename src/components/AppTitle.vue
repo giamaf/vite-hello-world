@@ -11,8 +11,8 @@ export default {
     <h1>{{ textTitle }}</h1>
 </template>
 
-<style>
+<style scoped>
 h1 {
-    text-align: center;
+    color: green;
 }
 </style>
